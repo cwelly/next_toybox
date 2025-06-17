@@ -1,4 +1,8 @@
-export default function AddRoaster() {
+type AddRoasterProps = {
+  faction: string;
+};
+
+export default function AddRoaster({ faction }: AddRoasterProps) {
   return (
     <>
       <h1>Add Roaster</h1>
